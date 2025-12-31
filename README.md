@@ -14,7 +14,8 @@ This project builds a Linear Regression model to predict house prices based on *
 - `predict_prices.py`: Core logic for model training and evaluation.
 - `clean_data.py`: Data preprocessing script (Duplicate removal & IQR Outlier handling).
 - `house_prices.csv`: Original raw dataset.
-- `house_prices_cleaned.csv`: Cleaned dataset used for final training.
+- `house_prices_cleaned.csv`: Cleaned dataset used for preliminary training.
+- `house_prices_final.csv`: Final processed dataset with realistic location mapping.
 
 ## How to Run
 1. Install dependencies:
