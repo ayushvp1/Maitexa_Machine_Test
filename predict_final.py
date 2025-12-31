@@ -36,9 +36,6 @@ def build_model():
     # Mapping for the model
     location_map = {'New York': 9, 'Florida': 8, 'Atlanta': 7}
     df['location_score'] = df['location'].map(location_map)
-    
-    # Save the updated data for your reference
-    df.to_csv('house_prices_final.csv', index=False)
 
     # 2. Features: area, bedrooms, location_score
     X = df[['area', 'bedrooms', 'location_score']]
@@ -97,8 +94,6 @@ def run_predictor(model, rmse):
 if __name__ == "__main__":
     model, rmse = build_model()
     if model:
-        # Save the realistic data for user review
-        # The build_model function doesn't return the df, let's modify it to save inside
         run_predictor(model, rmse)
         
         print("\nThank you for using the Maitexa Price Predictor!")
