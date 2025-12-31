@@ -1,0 +1,42 @@
+MAITEXA HOUSE PRICE PREDICTOR - SAMPLE TEST RUNS
+================================================
+
+TEST RUN 1: NEW YORK
+--------------------
+Inputs:
+- Area: 2000 sq. ft
+- Rooms: 4
+- Location: 1 (New York)
+
+Result:
+ESTIMATED HOUSE PRICE: $5,978,407.53
+------------------------------------------------
+
+TEST RUN 2: FLORIDA
+-------------------
+Inputs:
+- Area: 2000 sq. ft
+- Rooms: 4
+- Location: 2 (Florida)
+
+Result:
+ESTIMATED HOUSE PRICE: $4,406,407.55
+------------------------------------------------
+
+TEST RUN 3: ATLANTA
+-------------------
+Inputs:
+- Area: 2000 sq. ft
+- Rooms: 4
+- Location: 3 (Atlanta)
+
+Result:
+ESTIMATED HOUSE PRICE: $2,834,407.57
+------------------------------------------------
+
+MODEL PERFORMANCE SUMMARY
+-------------------------
+- Evaluation Metric: RMSE
+- Final Score: $832,904.36
+- Dataset: Cleaned (No Outliers)
+- Features: Area, Bedrooms, Location Score
